@@ -12,6 +12,9 @@ distanceFromHqInBlocks(43);
 distanceFromHqInBlocks(50);
 distanceFromHqInBlocks(34);
 
+function distanceFromHqInFeet(location) {
+    return distanceFromHqInBlocks(location) * 264;
+  }
 
 function distanceFromHqInfeet(location) {
     if (distanceFromHqInBlocks >=43){
